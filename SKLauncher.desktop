@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=SKLauncher
+Exec=java -jar /home/cfrmstf/Masaüstü/SKLauncher.jar
+Icon=minecraft
+Type=Application
+Terminal=false
+Categories=Game;

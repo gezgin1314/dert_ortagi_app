@@ -1,0 +1,688 @@
+➜  Masaüstü mkdir -p ~/.gradle/wrapper/dists/gradle-8.8-bin/957x6j4w94m4s3n20y434c4f
+➜  Masaüstü cp ~/İndirilenler/gradle-8.8-bin.zip ~/.gradle/wrapper/dists/gradle-8.8-bin/957x6j4w94m4s3n20y434c4f/
+➜  Masaüstü npx react-native run-android
+Command `run-android` unrecognized. Make sure that you have run `npm install` and that you are inside a react-native project.
+➜  Masaüstü cd ProfesyonelChatApp
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native run-android
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+Downloading https://services.gradle.org/distributions/gradle-8.8-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%..............70%.............80%.............90%.............100%
+
+Welcome to Gradle 8.8!
+
+Here are the highlights of this release:
+ - Running Gradle on Java 22
+ - Configurable Gradle daemon JVM
+ - Improved IDE performance for large projects
+
+For more details see https://docs.gradle.org/8.8/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 69
+> Unsupported class file major version 69
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 2m 38s
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * What went wrong:
+BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 69
+> Unsupported class file major version 69 * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 2m 38s.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ sudo pacman -S jre17-openjdk jdk17-openjdk
+[sudo] password for cfrmstf: 
+paket bağımlılıkları çözümleniyor...
+varsa paketler arası çakışmalara bakılıyor...
+uyarı: hedef listesinden 'jre17-openjdk-17.0.16.u8-1' kaldırılıyor çünkü 'jdk17-openjdk-17.0.16.u8-1' ile çakışıyor.
+
+Paketler (1) jdk17-openjdk-17.0.16.u8-1
+
+Toplam İndirme Boyutu:  273,20 MiB
+Toplam Kurulum Boyutu:  420,71 MiB
+
+:: Kuruluma onay veriyor musunuz? [E/h] E
+:: Paketler alınıyor...
+ jdk17-openjdk-17...   273,2 MiB  8,18 MiB/s 00:33 [######################] 100%
+(1/1) anahtarlıktaki anahtarlar kontrol ediliyor   [######################] 100%
+(1/1) paket bütünlüğü kontrol ediliyor             [######################] 100%
+(1/1) paket dosyaları yükleniyor                   [######################] 100%
+(1/1) dosya çakışmaları kontrol ediliyor           [######################] 100%
+(1/1) disk alanı kontrol ediliyor                  [######################] 100%
+:: Paket değişiklikleri işleniyor...
+(1/1) yükleniyor jdk17-openjdk                     [######################] 100%
+Default Java environment is already set to 'java-25-openjdk'
+See 'archlinux-java help' to change it
+jdk17-openjdk için opsiyonel bağımlılık(lar)
+    java-rhino: for some JavaScript support
+    alsa-lib: for basic sound support [kuruldu]
+    gtk3: for the Gtk+ 3 look and feel - desktop usage [kuruldu]
+:: Bağlantılı işlemler listesi çalışıyor...
+(1/3) Arming ConditionNeedsUpdate...
+(2/3) Updating icon theme caches...
+(3/3) Updating the desktop file MIME type cache...
+➜  ProfesyonelChatApp git:(main) ✗ sudo archlinux-java set java-17-openjdk
+➜  ProfesyonelChatApp git:(main) ✗ java -version
+openjdk version "17.0.16" 2025-07-15
+OpenJDK Runtime Environment (build 17.0.16+8)
+OpenJDK 64-Bit Server VM (build 17.0.16+8, mixed mode, sharing)
+➜  ProfesyonelChatApp git:(main) ✗ rm -rf ~/.gradle/caches/
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native run-android
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 2
+
+* What went wrong:
+Plugin [id: 'com.facebook.react.settings'] was not found in any of the following sources:
+
+- Gradle Core Plugins (plugin is not in 'org.gradle' namespace)
+- Included Builds (No included builds contain this plugin)
+- Plugin Repositories (plugin dependency must include a version number for this source)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 1m 8s
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 2 * What went wrong:
+Plugin [id: 'com.facebook.react.settings'] was not found in any of the following sources: - Gradle Core Plugins (plugin is not in 'org.gradle' namespace)
+- Included Builds (No included builds contain this plugin)
+- Plugin Repositories (plugin dependency must include a version number for this source) * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 1m 8s.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ nano android/settings.gradle
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native run-android
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 8
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 420ms
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 8 * What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found. * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 420ms.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ nano android/settings.gradle
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native run-android
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 381ms
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7 * What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found. * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 381ms.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ cd android
+./gradlew clean
+cd ..
+rm -rf ~/.gradle/caches/
+
+### Adım 2: Çalıştırmayı Yeniden Dene
+
+Önbellek temizlendi ve yapılandırma dosyalarınız doğru. Şimdi son bir kez derlemeyi deneyelim:
+
+1.  **Terminal 1**'de Metro sunucusunun çalıştığından emin olun.
+2.  **Terminal 2**'de uygulamayı tekrar başlatın:
+
+    ```bash
+    npx react-native run-android
+    
+Eğer bu adımda hala hata alırsak, `android/build.gradle` dosyasındaki React Native eklentisinin yüklenme şeklini de kontrol etmemiz gerekecektir.
+
+Lütfen şimdi bu komutları çalıştırıp çıktıyı bana bildirin.
+bquote> cd android
+./gradlew clean
+cd ..
+rm -rf ~/.gradle/caches/
+bquote> 
+➜  ProfesyonelChatApp git:(main) ✗ cd android
+./gradlew clean
+cd ..
+rm -rf ~/.gradle/caches/
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 373ms
+➜  ProfesyonelChatApp git:(main) ✗ rm -rf node_modules         
+➜  ProfesyonelChatApp git:(main) ✗ rm -rf android/.gradle
+➜  ProfesyonelChatApp git:(main) ✗ npm install --force
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: eslint-plugin-jest@26.9.0
+npm warn Found: @typescript-eslint/eslint-plugin@6.21.0
+npm warn node_modules/@typescript-eslint/eslint-plugin
+npm warn   @typescript-eslint/eslint-plugin@"^6.7.4" from @react-native/eslint-config@0.74.83
+npm warn   node_modules/@react-native/eslint-config
+npm warn     dev @react-native/eslint-config@"0.74.83" from the root project
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional @typescript-eslint/eslint-plugin@"^5.0.0" from eslint-plugin-jest@26.9.0
+npm warn node_modules/eslint-plugin-jest
+npm warn   eslint-plugin-jest@"^26.5.3" from @react-native/eslint-config@0.74.83
+npm warn   node_modules/@react-native/eslint-config
+npm warn
+npm warn Conflicting peer dependency: @typescript-eslint/eslint-plugin@5.62.0
+npm warn node_modules/@typescript-eslint/eslint-plugin
+npm warn   peerOptional @typescript-eslint/eslint-plugin@"^5.0.0" from eslint-plugin-jest@26.9.0
+npm warn   node_modules/eslint-plugin-jest
+npm warn     eslint-plugin-jest@"^26.5.3" from @react-native/eslint-config@0.74.83
+npm warn     node_modules/@react-native/eslint-config
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm warn deprecated sudo-prompt@9.2.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+added 1044 packages, and audited 1045 packages in 11s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+10 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native run-android
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 377ms
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7 * What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found. * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 377ms.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ android/build.gradle
+zsh: erişim engellendi: android/build.gradle
+➜  ProfesyonelChatApp git:(main) ✗ nano build.gradle                       
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native run-android
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 358ms
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7 * What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found. * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 358ms.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ nano android/build.gradle            
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native run-android
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 366ms
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7 * What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found. * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 366ms.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ settings.gradle
+zsh: command not found: settings.gradle
+➜  ProfesyonelChatApp git:(main) ✗ nano settings.gradle                    
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native run-android
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 402ms
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 7 * What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Plugin with id 'com.facebook.react.settings' not found. * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 402ms.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ android/settings.gradle
+zsh: erişim engellendi: android/settings.gradle
+➜  ProfesyonelChatApp git:(main) ✗ nano android/settings.gradle               
+➜  ProfesyonelChatApp git:(main) ✗ nano android/build.gradle
+➜  ProfesyonelChatApp git:(main) ✗ cd android
+./gradlew clean
+cd ..
+git add android/settings.gradle android/build.gradle
+git commit -m "fix: Final fix for 'com.facebook.react.settings' Gradle build error."
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> Could not get unknown property 'cat' for settings 'android' of type org.gradle.initialization.DefaultSettings.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 371ms
+[main d1a7088] fix: Final fix for 'com.facebook.react.settings' Gradle build error.
+ 2 files changed, 25 insertions(+), 16 deletions(-)
+➜  ProfesyonelChatApp git:(main) ✗ mkdir -p src/Domain src/Data src/Application src/Presentation
+➜  ProfesyonelChatApp git:(main) ✗ mkdir -p src/Domain src/Data src/Application src/Presentation
+➜  ProfesyonelChatApp git:(main) ✗ src/firebase.ts
+zsh: böyle bir dosya ya da dizin yok: src/firebase.ts
+➜  ProfesyonelChatApp git:(main) ✗ nano src/firebase.ts                    
+➜  ProfesyonelChatApp git:(main) ✗ nano android/settings.gradle
+➜  ProfesyonelChatApp git:(main) ✗ nano android/build.gradle
+➜  ProfesyonelChatApp git:(main) ✗ cd android
+./gradlew clean
+cd ..
+git add android/settings.gradle android/build.gradle
+git commit -m "fix: Final fix for Gradle build error by cleaning and setting new config."
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 3
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Could not read script '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/node_modules/@react-native/gradle-plugin/settings.gradle' as it does not exist.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 354ms
+[main 35d93a8] fix: Final fix for Gradle build error by cleaning and setting new config.
+ 2 files changed, 4 deletions(-)
+➜  ProfesyonelChatApp git:(main) ✗ nano src/Domain/Message.ts
+➜  ProfesyonelChatApp git:(main) ✗ # Tüm bağımlılıkları içeren klasörü siler
+rm -rf node_modules
+# Ön bellekleri temizler (ekstra güvenlik)
+npm cache clean --force 
+# veya
+# yarn cache clean
+npm warn using --force Recommended protections disabled.
+➜  ProfesyonelChatApp git:(main) ✗ # Tüm bağımlılıkları içeren klasörü siler
+rm -rf node_modules
+# Ön bellekleri temizler (ekstra güvenlik)
+npm cache clean --force 
+# veya
+# yarn cache clean
+npm warn using --force Recommended protections disabled.
+➜  ProfesyonelChatApp git:(main) ✗ # Bağımlılıkları yeniden kurar (Bu biraz zaman alabilir)
+npm install
+# veya
+# yarn install
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: eslint-plugin-jest@26.9.0
+npm warn Found: @typescript-eslint/eslint-plugin@6.21.0
+npm warn node_modules/@typescript-eslint/eslint-plugin
+npm warn   @typescript-eslint/eslint-plugin@"^6.7.4" from @react-native/eslint-config@0.74.83
+npm warn   node_modules/@react-native/eslint-config
+npm warn     dev @react-native/eslint-config@"0.74.83" from the root project
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional @typescript-eslint/eslint-plugin@"^5.0.0" from eslint-plugin-jest@26.9.0
+npm warn node_modules/eslint-plugin-jest
+npm warn   eslint-plugin-jest@"^26.5.3" from @react-native/eslint-config@0.74.83
+npm warn   node_modules/@react-native/eslint-config
+npm warn
+npm warn Conflicting peer dependency: @typescript-eslint/eslint-plugin@5.62.0
+npm warn node_modules/@typescript-eslint/eslint-plugin
+npm warn   peerOptional @typescript-eslint/eslint-plugin@"^5.0.0" from eslint-plugin-jest@26.9.0
+npm warn   node_modules/eslint-plugin-jest
+npm warn     eslint-plugin-jest@"^26.5.3" from @react-native/eslint-config@0.74.83
+npm warn     node_modules/@react-native/eslint-config
+npm warn deprecated sudo-prompt@9.2.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm warn deprecated @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+
+added 1044 packages, and audited 1045 packages in 2m
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+10 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+➜  ProfesyonelChatApp git:(main) ✗ cd android
+# Gradle önbelleğini tamamen temizler
+./gradlew clean
+cd ..
+
+# Uygulamayı tekrar çalıştır
+npx react-native run-android
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 3
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Could not read script '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/node_modules/@react-native/gradle-plugin/settings.gradle' as it does not exist.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 358ms
+^C
+➜  ProfesyonelChatApp git:(main) ✗ cd android
+# Gradle önbelleğini tamamen temizler
+./gradlew clean
+cd ..
+
+# Uygulamayı tekrar çalıştır
+npx react-native run-android
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 3
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Could not read script '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/node_modules/@react-native/gradle-plugin/settings.gradle' as it does not exist.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 340ms
+info A dev server is already running for this project on port 8081.
+/bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 3
+
+* What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Could not read script '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/node_modules/@react-native/gradle-plugin/settings.gradle' as it does not exist.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUİLD FAILED in 373ms
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * Where:
+Settings file '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/android/settings.gradle' line: 3 * What went wrong:
+A problem occurred evaluating settings 'ProfesyonelChatApp'.
+> Could not read script '/home/cfrmstf/Masaüstü/ProfesyonelChatApp/node_modules/@react-native/gradle-plugin/settings.gradle' as it does not exist. * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUİLD FAILED in 373ms.
+info Run CLI with --verbose flag for more details.
+➜  ProfesyonelChatApp git:(main) ✗ nano android/settings.gradle
+➜  ProfesyonelChatApp git:(main) ✗ npx react-native doctor
+⠹ Running diagnostics.../bin/sh: satır 1: /home/cfrmstf/Android/Sdk/platform-tools/adb: Böyle bir dosya ya da dizin yok
+Common
+ ✓ Node.js - Required to execute JavaScript code
+ ✓ yarn - Required to install NPM dependencies
+ ✓ Metro - Required for bundling the JavaScript code
+
+Android
+ ✖ Adb - No devices and/or emulators connected. Please create emulator with Android Studio or connect Android device.
+ ✓ JDK - Required to compile Java code
+ ✖ Android Studio - Required for building and installing your app on Android
+ ✓ ANDROID_HOME - Environment variable that points to your Android SDK installation
+ ✓ Gradlew - Build tool required for Android builds
+ ✖ Android SDK - Required for building and installing your app on Android
+   - Versions found: N/A
+   - Version supported: Not Found
+
+Errors:   3
+Warnings: 0
+
+Usage
+ › Press f to try to fix issues.
+ › Press e to try to fix errors.
+ › Press w to try to fix warnings.
+ › Press Enter to exit.
+➜  ProfesyonelChatApp git:(main) ✗ 

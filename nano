@@ -1,0 +1,67 @@
+http://googleusercontent.com/immersive_entry_chip/1
+
+#### 3. Güvenlik ve Captcha Bileşeni (`src/components/HumanVerification.jsx`)
+
+**Not:** Sisteme erişimden önce kullanıcının bir insan olduğunu doğrulamak için rastgele bir görsel eşleştirme (captcha benzeri) görevi sunar.
+
+```bash
+nano src/components/HumanVerification.jsx
+
+http://googleusercontent.com/immersive_entry_chip/2
+
+---
+
+### BÖLÜM 2: EKRANLAR
+
+#### 4. Grup ve Kanal Listesi Ekranı (`src/screens/GroupsScreen.jsx`)
+
+**Not:** Discord tarzı sol menü ve navigasyon mantığı.
+
+```bash
+nano src/screens/GroupsScreen.jsx
+
+http://googleusercontent.com/immersive_entry_chip/3
+
+#### 5. Yüksek Güvenlikli Sohbet Ekranı (`src/screens/ChatScreen.jsx`)
+
+**Not:** Bu ekran, **gerçek AES-GCM kripto servisini** kullanarak mesajları anlık şifreler ve çözer.
+
+```bash
+nano src/screens/ChatScreen.jsx
+
+http://googleusercontent.com/immersive_entry_chip/4
+
+#### 6. Reels Akış Ekranı (`src/screens/ReelsScreen.jsx`)
+
+**Not:** TikTok/Instagram Reels akışı simülasyonu.
+
+```bash
+nano src/screens/ReelsScreen.jsx
+
+http://googleusercontent.com/immersive_entry_chip/5
+
+---
+
+### BÖLÜM 3: ANA UYGULAMA
+
+#### 7. Ana Uygulama Bileşeni (`App.jsx`)
+
+**Not:** Tüm ekranları birleştirir, Firebase'i başlatır ve **HumanVerification** bileşenini erişim kapısı olarak kullanır.
+
+```bash
+nano App.jsx
+
+http://googleusercontent.com/immersive_entry_chip/6
+
+---
+
+### SONUÇ
+
+Tüm bu dosyaları kaydettikten sonra, uygulamanızın tam bir React tabanlı sosyal/sohbet uygulaması iskeleti oluşmuş olacaktır.
+
+**Yapılması Gerekenler:**
+1.  **Tüm nano komutlarını sırayla çalıştırın.**
+2.  Uygulamanın çalışması için gerekli kütüphaneleri (eğer React projenizde kurulmamışsa) kurun: `npm install firebase lucide-react` (bu ortamda React ve Tailwind CSS zaten mevcuttur).
+3.  Uygulamayı çalıştırın.
+
+Artık, AES-GCM ile çalışan, güvenlikli giriş doğrulama (Captcha) mekanizmasına sahip, tam bir iskelet uygulamasına sahipsiniz. Başka bir şey eklemek ister misiniz?
