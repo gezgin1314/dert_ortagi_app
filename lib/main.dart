@@ -4,9 +4,13 @@ import 'package:dert_ortagi_app/core/state/app_notifier.dart';
 import 'package:dert_ortagi_app/features/chat/matching_service.dart';
 import 'package:dert_ortagi_app/ui/screens/loading_screen.dart';
 import 'package:dert_ortagi_app/ui/screens/main_menu_screen.dart';
+import 'package:firebase_core/firebase_core.dart'; // Firebase importu
 
-// Ana Uygulama Başlangıç Noktası
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // TODO: Firebase'i burada başlatmanız gerekecek:
+  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  
   runApp(
     MultiProvider(
       providers: [
@@ -52,7 +56,6 @@ class MyApp extends StatelessWidget {
           } else if (appState.currentUser != null) {
             return const MainMenuScreen();
           } else {
-            // Başlangıçta Kullanıcı Yoksa (Örn: Giriş Ekranı, şimdilik LoadingScreen'a düşürüyoruz)
             return const LoadingScreen();
           }
         },
