@@ -1,0 +1,38 @@
+name: dert_ortagi_app
+description: A highly secure, anonymous, and encrypted video/text chat application for finding support.
+
+publish_to: 'none' # Never publish this package.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core Firebase ve Eşleştirme için
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  provider: ^6.1.1
+  
+  # WebRTC Görüntülü Sohbet için
+  flutter_webrtc: ^0.10.1
+  
+  # Ikonlar ve Arayüz
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # Varsayımsal terminal fontu
+  fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono-Regular.ttf
